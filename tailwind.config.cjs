@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['index.html', './src/app/**/*.{html,js, jsx}'],
+  // /** === matches any number of directories between ./src/app/ and /*.{html,js, jsx}
+  content: ['index.html', './src/app/**/*.{html,js,jsx}'],
   plugins: [],
   theme: {
     colors: {
